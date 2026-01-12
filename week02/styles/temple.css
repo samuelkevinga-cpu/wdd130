@@ -1,0 +1,62 @@
+#title {
+    color: aliceblue;
+    background-color: #3b3434;
+    text-align: center;
+    font-size: 300%;
+}
+
+#temple_name {
+    text-align: center;
+    font-style: Arial;
+    font-size: 400%;
+}
+
+#temple_image {
+    display: block;
+    margin: 40px auto;
+    object-fit: cover;
+    object-position: center;
+    width: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.box {
+    margin: 40px auto;
+    background-color: rgb(214, 214, 214);
+    max-width: 500px;
+    max-height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.subtitles {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+    /* Espacio entre el texto y la línea */
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.subtitles::after {
+    content: "";
+    display: block;
+    width: 95%;
+    height: 1px;
+    background-color: #000;
+    margin: 8px auto 0;
+}
+
+.box_content {
+    font-size: 1.2rem;
+}
+
+#end_text {
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgb(51, 42, 42);
+    padding: 20px;
+
+}
