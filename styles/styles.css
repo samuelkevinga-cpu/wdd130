@@ -7,6 +7,22 @@
     margin: 20px;
     border: 20px;
     padding: 40px;
-    background-color: aqua;
-    color: brown;
+    background-color: rgb(39, 116, 116);
+    color: whitesmoke;
+    font-size: large;
+}
+
+#mexico image {
+    width: 200px;
+    height: auto;
+}
+
+#p {
+    padding: 0;
+}
+
+#footer {
+    margin-top: 10;
+    border-top: 20;
+    text-align: center;
 }
