@@ -1,0 +1,12 @@
+#main {
+    width: 800px;
+}
+
+#aside {
+    width: 400px;
+    margin: 20px;
+    border: 20px;
+    padding: 40px;
+    background-color: aqua;
+    color: brown;
+}
