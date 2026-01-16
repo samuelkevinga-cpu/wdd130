@@ -2,6 +2,16 @@
     width: 800px;
 }
 
+#nav {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.nav-a {
+    color: blanchedalmond;
+    padding: 10px;
+}
+
 #aside {
     width: 400px;
     margin: 20px;
@@ -12,7 +22,7 @@
     font-size: large;
 }
 
-#mexico image {
+#mexico-image {
     width: 200px;
     height: auto;
 }
@@ -22,7 +32,7 @@
 }
 
 #footer {
-    margin-top: 10;
-    border-top: 20;
+    margin-top: 10px;
+    border-top: 20px;
     text-align: center;
 }
