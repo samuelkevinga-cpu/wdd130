@@ -22,13 +22,13 @@ main img {
     height: auto;
     border: 10px;
     padding: 10%;
-    box-shadow: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-#aside {
+aside {
     width: 400px;
     margin: 20px;
-    border: 20px solid#000;
+    border: 20px solid #000;
     padding: 40px;
     background-color: rgb(39, 116, 116);
     color: whitesmoke;
