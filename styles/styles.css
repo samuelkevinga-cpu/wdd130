@@ -1,5 +1,9 @@
 #main {
-    width: 800px;
+    max-width: 800px;
+}
+
+#h1 {
+    color: rgb(10, 14, 17);
 }
 
 #nav {
@@ -12,6 +16,14 @@
     padding: 10px;
 }
 
+main img {
+    width: 250px;
+    height: auto;
+    border: 10px;
+    padding: 10%;
+    box-shadow: inset;
+}
+
 #aside {
     width: 400px;
     margin: 20px;
@@ -22,7 +34,7 @@
     font-size: large;
 }
 
-#mexico-image {
+aside image {
     width: 200px;
     height: auto;
 }
