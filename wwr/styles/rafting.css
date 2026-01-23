@@ -55,19 +55,27 @@ article {
     font-family: var(--body-font);
 }
 
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 300px;
-    border: 5%;
-    box-shadow: rgba(0, 0, 0, 0.008);
+    border: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .socialmedia a {
     text-decoration: none;
-}
-
-.hero {
-    position: relative;
 }
 
 .hero img {
