@@ -1,6 +1,6 @@
 :root {
     --primary-color: #5cb6ff;
-    --secondary-color: rgb(121, 238, 130);
+    --secondary-color: #006400;
     --accent1-color: rgb(0, 100, 207);
     --accent2-color: rgb(17, 215, 17);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: #fff;
 }
 
