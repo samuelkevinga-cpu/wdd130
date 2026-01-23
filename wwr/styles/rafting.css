@@ -2,7 +2,7 @@
     --primary-color: #5cb6ff;
     --secondary-color: #006400;
     --accent1-color: rgb(0, 100, 207);
-    --accent2-color: rgb(17, 215, 17);
+    --accent2-color: #146c43;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -25,10 +25,14 @@ footer {
     margin: 0 auto;
 }
 
+footer p {
+    color: var(--secondary-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1 {
