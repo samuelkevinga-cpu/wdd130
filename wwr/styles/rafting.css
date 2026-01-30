@@ -42,7 +42,7 @@ footer {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: #babbba30;
+    background-color: #b5c5b5fa;
 }
 
 .site-header img {
@@ -110,10 +110,6 @@ article {
 
 article {
     font-family: var(--body-font);
-}
-
-.hero {
-    position: relative;
 }
 
 .hero h1 {
