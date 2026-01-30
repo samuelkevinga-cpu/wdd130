@@ -42,7 +42,7 @@ footer {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: #b5c5b5fa;
+    background-color: #f3f3f3fa;
 }
 
 .site-header img {
@@ -126,6 +126,19 @@ article {
 
 }
 
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* like background-size: cover */
+    object-position: center;
+    z-index: 0;
+    /* behind text */
+}
+
 .hero article {
     position: absolute;
     top: 100px;
@@ -164,12 +177,6 @@ article {
     color: var(--secondary-color);
     font-weight: 600;
     font-size: 0.95rem;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 footer {
