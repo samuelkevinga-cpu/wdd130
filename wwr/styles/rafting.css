@@ -13,6 +13,15 @@
     box-sizing: border-box;
 }
 
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 420px;
+    border-radius: 6px;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
