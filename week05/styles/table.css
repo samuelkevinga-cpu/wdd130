@@ -1,0 +1,26 @@
+table {
+    border-color: black;
+    border: 2px solid rgb(140 140 140);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    border: 2px solid rgb(140 140 140);
+}
+
+#footer {
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid rgb(140 140 140);
+
+}
+
+#body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border: 2px solid rgb(140 140 140);
+}

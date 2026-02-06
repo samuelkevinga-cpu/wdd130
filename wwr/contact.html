@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Contact us in this page, write your information and we will contact you as soon as possible">
+  <meta name="author" content="Kevin Samuel Pacheco García">
+  <title>Contact Us | Whitewater Rafting</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <img src="images/logo.jpg" alt="Whitewater Rafting logo">
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Whitewater Rafting company</h1>
+
+    <section id="information">
+      <p>123 Main River Street</p>
+      <p>Kolob, California</p>
+      <p>+1 666 666 6666</p>
+      <p>info@whitewater.org</p>
+    </section>
+
+    <div id="main-layout">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61123.98630922552!2d-93.23530197143559!3d16.76427574908949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd96c9f7fde83%3A0xf0cceb9e3d9d10bb!2sTemplo%20de%20Tuxtla%20Guti%C3%A9rrez%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1770417737083!5m2!1ses-419!2smx"
+        width="600" height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <form class="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email@example.org">
+        <div class="purpose-row">
+          <div class="purpose-label">Message<br>Purpose</div>
+
+          <div class="radio-group">
+            <label class="radio-option">
+              <input type="radio" name="purpose" id="general-inquiry" value="general">
+              <span>General Inquiry</span>
+            </label>
+
+            <label class="radio-option">
+              <input type="radio" name="purpose" id="reservation-question" value="reservation">
+              <span>Reservation Question</span>
+            </label>
+
+            <label class="radio-option">
+              <input type="radio" name="purpose" id="website-suggestion" value="website">
+              <span>Website Suggestion</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="3" placeholder="Type Here"></textarea>
+
+        <label class="check-option">
+          <input type="checkbox" name="subscribe" id="subscribe" checked>
+          <span>Please subscribe me to the monthly newsletter</span>
+        </label>
+        <input type="submit" name="submit" id="submit" value="Get in touch!">
+      </form>
+    </div>
+    <section>
+        <h2>We Are Here to Serve You</h2>
+        <div class="adventure-gallery">
+            <figure>
+                <img src="images/person-1.jpg" alt="Colorado River image">
+                <figcaption>Ricarda Donalda</figcaption>
+            </figure>
+            <figure>
+                <img src="images/person-2.jpg" alt="Middle fork siter">
+                <figcaption>Sunita Gita</figcaption>
+            </figure>
+            <figure>
+                <img src="images/person-3.jpg" alt="Magpie River">
+                <figcaption>Brent Masayuki</figcaption>
+            </figure>
+    </section>
+    </main>
+
+  <footer>
+    <p>©️2026 Whitewater | Kevin Samuel Pacheco</p>
+    <nav class="socialmedia">
+      <a href="https://x.com"><img src="images/x-icon.png" alt="X icon"></a>
+      <a href="https://www.instagram.com"><img src="images/instagram-icon.png" alt="Instagram icon"></a>
+      <a href="https://www.linkedin.com/"><img src="images/linkedin-icon.png" alt="Linkedin icon"></a>
+    </nav>
+  </footer>
+</body>
+</html>
