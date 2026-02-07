@@ -71,9 +71,6 @@ footer {
     border-radius: 6px;
 }
 
-footer p {
-    color: var(--secondary-color);
-}
 
 .h1, .h2{
     font-family: var(--heading-font);
