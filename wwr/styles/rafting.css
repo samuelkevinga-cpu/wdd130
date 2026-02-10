@@ -209,7 +209,6 @@ article {
 .video {
   position: relative;
   width: 100%;
-  max-width: 50p0px; /* optional */
   aspect-ratio: 16 / 9; /* modern browsers */
 }
 
@@ -310,6 +309,32 @@ article {
 }
 
 .activities-gallery figure {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;       /* adjust to your design; try 560–640px */
+    padding: 0.75rem;
+    border: 1px solid #e3e3e3;
+    background: #fff;
+}
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+.trips img {
+    width: 260px;
+    height: 200px;
+    align-items: center;
+}
+.trips figcaption {
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.trips figure {
     display: flex;
     flex-direction: column;
     min-height: 420px;       /* adjust to your design; try 560–640px */
